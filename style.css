@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+    background: #7b2cbf;
+    color: #ff9e00;
+    text-transform: capitalize;
+}
+.nav h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 50px;
+}
+.nav .links{
+    float: right;
+    margin: 22.5px 50px;
+}
+.nav .links a{
+    text-transform: capitalize;
+    color: #ff9e00;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 10px;
+    transition: all .3s ease-in-out;
+}
+.nav .links a:hover{
+    font-size: 25px;
+}
+.hi{
+    width: 100%;
+    height: 100px;
+    background:rgb(223, 220, 220) ;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.hi h3{
+    font-size: 40px;
+    text-align: center;
+    margin:25px ;
+    text-transform: uppercase;
+    text-decoration: underline wavy;
+}
+.about{
+    padding: 30px 50px;
+}
+.about .img{
+    float: left;
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: #7b2cbf 3px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about .img img{
+    height: 100%;
+    transition: all .3s linear;
+}
+.about .img img:hover{
+    transform: scale(1.1);
+}
+.about .text{
+    margin-left:550px;
+
+}
+.about .text p{
+    font-size: 20px;
+    color: #7b2cbf;
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.projects{
+    background: #7b2cbf;
+    padding: 50px 100px;
+}
+.projects h3{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ff9e00;
+}
+.projects ul{
+    list-style: circle;
+}
+.projects ul li{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.contact{
+    background: #ff9e00;
+    padding: 50px 100px;
+}
+.contact h3{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #7b2cbf;
+}
+.contact .form{
+    width: 80%;
+    margin: 50px auto;
+    background: #7b2cbf;
+    height: auto;
+}
+.contact .form form{
+    width: 35%;
+    height: auto;
+    margin: auto;
+    padding: 35px 0;
+    
+}
+.contact .form form label{
+    float: left;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.contact .form form input  {
+    float: right;
+    width: 200px;
+}
+.contact .form form input[type="submit"]  {
+    height: 30px;
+    width: 100%;
+}
+
